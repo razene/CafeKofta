@@ -1,0 +1,351 @@
+/* Медиа запрос: для экранов с шириной до 1140px */
+@media (max-width: 1200px) {
+    /*title 1200px*/
+    .name-title {
+        font-size: 68px;
+    }
+
+    .name-subtitle {
+        font-size: 22px;
+    }
+
+    .title-adress p,
+    a {
+        font-size: 22px;
+    }
+
+    .title-number {
+        font-size: 22px;
+    }
+
+    /*text-place 1200*/
+    .container-place p {
+        font-size: 18px;
+    }
+
+    /*О нас 1200*/
+    .about-us-container {
+        width: 100%;
+        height: 759px;
+    }
+
+    .about-us-wrapper {
+        padding-left: 80px;
+        padding-bottom: 90px;
+    }
+
+    .about-us-wrapper p {
+        width: 620px;
+        height: 450px;
+        max-width: 100%;
+        font-size: 18px;
+    }
+    /*карта 1200*/
+    .map-kofta-content {
+        top: 8%;
+        right: 58%;
+        max-width: 380px;
+    }
+
+    .hours-kofta {
+        font-size: 26px;
+        width: 260px;
+        height: 161px;
+        margin-bottom: 30px;
+    }
+
+    .number-kofta {
+        font-size: 20px;
+    }
+
+    .adress-kofta {
+        font-size: 16px;
+        line-height: 1.55;
+    }
+}
+
+/* Медиа запрос: для экранов с шириной до 960px */
+@media (max-width: 960px) {
+    /*Title 960px*/
+    .title {
+        height: 925px;
+    }
+
+    .title-logo {
+        padding-top: 12%;
+    }
+
+    /*навигация 960px*/
+    .header {
+        display: none;
+    }
+
+    .header_small {
+        display: block;
+    }
+
+    /*Меню карточки 960px*/
+    .menu {
+        max-height: 100%;
+    }
+
+    .menu-cards-wrapper {
+        padding: 10px 5px 0 5px;
+    }
+
+    .card {
+        width: calc(50% - 10px);
+    }
+
+    /*меню 960px*/
+
+    .menu-description h1 {
+        font-size: 32px;
+    }
+
+    .menu-description p {
+        font-size: 18px;
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    /*видео 960px */
+    .video-cofta {
+        height: 300px;
+    }
+
+    .conteiner-video video {
+        width: 538px;
+        height: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    /*text-place 960*/
+    .text-place {
+        width: 100%;
+        height: 355px;
+    }
+
+    .container-place {
+        width: 600px;
+        height: 280px;
+    }
+
+    .container-place h1 {
+        width: 100%;
+        height: 70px;
+        margin: 0;
+        padding: 0 20px 0 20px;
+        top: 0;
+    }
+
+    .container-place p {
+        width: 100%;
+        margin: 0;
+        padding: 0 20px 0 20px;
+        bottom: 0;
+    }
+
+    /*О нас 960*/
+    .about-us-container {
+        width: 100%;
+        height: 987px;
+    }
+
+    .about-us-wrapper {
+        height: 100%;
+        padding: 60px;
+    }
+
+    .about-us-wrapper h1 {
+        width: 600px;
+        height: 70px;
+        margin: 30px 0 54px 60px;
+        font-size: 70px;
+    }
+
+    .about-us-wrapper p {
+        width: 92%;
+        height: 85%;
+        font-size: 18px;
+    }
+    /*карта 960*/
+    .maps-zero {
+        max-width: 100%;
+        height: 745px;
+        position: relative;
+    }
+
+    .map-kofta-content {
+        position: absolute;
+        margin: 0;
+        padding: 45px 20px;
+        height: 355px;
+        width: 380px;
+        top: 0;
+        z-index: 10;
+        left: 10%;
+    }
+
+    .map-kofta {
+        width: 100%;
+        max-height: 390px;
+        position: absolute;
+        top: 355px;
+        z-index: 1;
+    }
+
+    .hours-kofta {
+        font-size: 26px;
+        width: 340px;
+        height: 91px;
+        margin-bottom: 30px;
+    }
+}
+
+/* Медиа запрос: для экранов с шириной до 500px */
+@media (max-width: 500px) {
+    /*title*/
+    .title {
+        height: 850px;
+    }
+
+    .title-logo {
+        padding-top: 20%;
+    }
+
+    .name-title {
+        font-size: 32px;
+    }
+
+    .name-subtitle {
+        font-size: 18px;
+    }
+
+    .title-adress p,
+    a {
+        font-size: 18px;
+    }
+
+    .title-number {
+        font-size: 18px;
+    }
+
+    /*карточки меню 500px*/
+    .dws-card-text {
+        font-size: 14px;
+    }
+
+    /*меню 500px*/
+    .menu-description h1 {
+        font-size: 28px;
+        margin-top: 0;
+    }
+
+    .menu-description p {
+        font-size: 16px;
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+
+    /*text-place 500*/
+    .text-place {
+        width: 100%;
+        height: 540px;
+        padding: 10px 0 10px 0;
+    }
+
+    .container-place {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-place h1 {
+        font-size: 22px;
+    }
+
+    .container-place p {
+        font-size: 16px;
+        height: 75%;
+    }
+
+    /*О нас 500*/
+    .about-us-wrapper {
+        padding: 10px;
+    }
+
+    .about-us-wrapper h1 {
+        width: 200px;
+        height: 70px;
+        margin: 30px 0 54px 60px;
+        font-size: 34px;
+    }
+
+    .about-us-wrapper p {
+        width: 85%;
+        font-size: 16px;
+    }
+
+    /*карта 500*/
+    .maps-zero {
+        height: 680px;
+    }
+
+    .map-kofta-content {
+        padding: 20px 20px;
+        height: 300px;
+        width: 100%;
+        left: 0;
+    }
+
+    .map-kofta {
+        width: 100%;
+        top: 300px;
+    }
+
+    .hours-kofta {
+        font-size: 22px;
+        width: 100%;
+        height: 91px;
+    }
+}
+
+/* Медиа запрос: для экранов с шириной до 360px */
+@media (max-width: 360px) {
+    /*карточки меню 360px*/
+    .dws-card-text {
+        font-size: 12px;
+        width: 95%;
+    }
+
+    /*О нас 360px*/
+    .about-us-wrapper {
+        height: 1000px;
+    }
+
+    .about-us-wrapper h1 {
+        margin: 15px 0 0 40px;
+    }
+
+    .about-us-wrapper p {
+        line-height: 1.35;
+    }
+
+    /*карта 360*/
+    .maps-zero {
+        height: 730px;
+    }
+
+    .map-kofta-content {
+        padding: 20px 15px 20px 15px;
+        height: 330px;
+    }
+    .map-kofta {
+        top: 330px;
+    }
+
+    .hours-kofta {
+        height: 121px;
+    }
+}
